@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+<script>
+
+function intersectLists() {
+    var lista1 = ["Capivara", "Paca", "Pacarana"]
+    var lista2 = ["Chinchila", "Hamster", "Rato", "Cutia"]
+    var lista3 = []
+    for (items of lista2) {
+        for (items_ of lista1) {
+            if (items == items_) {
+                lista3.push(items)
+            }
+        }
+    }
+    alert(lista3)
+}
+
+</script>
+<a href="remover.html"><button>UltimaAtv</button></a>
+</body>
+</html>
